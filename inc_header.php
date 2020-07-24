@@ -16,4 +16,19 @@
 		<title><?php echo (isset($pageTitle)) ? $pageTitle : 'Some Content Site'; ?></title>
 	</head>
 	<body>
-		
+        <header class='jumbotron jumbotron-fluid shadow rounded'>
+        <div class="container">
+            <h1 class="display-4">Alex Parys Portfolio Website</h1>
+            <p class="lead">
+            Welcome to my little corner of the web.
+            </p>
+            
+            </div>
+        </header>
+        
+        <nav class="nav nav-pills nav-fill">
+            <a class="nav-item nav-link active" href="#">Active</a>
+            <a class="nav-item nav-link" href="#">Link</a>
+            <a class="nav-item nav-link" href="#">Link</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </nav>
