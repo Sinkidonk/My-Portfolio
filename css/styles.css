@@ -1,3 +1,23 @@
+.jumbotron {
+  background-color: #5eac2a;
+  margin-bottom: 0rem;
+}
 
+body {
+  background-color: #afe38c;
+}
+
+nav {
+  background-color: #6ac12f;
+}
+
+a.nav-item.nav-link, a.nav-item.nav-link.active {
+  color: black;
+  font-weight: bold;
+}
+
+a.nav-item.nav-link.active {
+  background-color: #539825;
+}
 
 /*# sourceMappingURL=styles.css.map */

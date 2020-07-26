@@ -11,12 +11,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap css -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
 		
 		<!-- when use with the $pageTitle variable on other pages it help fill the page tab. -->
 		<title><?php echo (isset($pageTitle)) ? $pageTitle : 'Some Content Site'; ?></title>
 	</head>
 	<body>
-        <header class='jumbotron jumbotron-fluid shadow rounded'>
+        <header class='jumbotron jumbotron-fluid'>
         <div class="container">
             <h1 class="display-4">Alex Parys Portfolio Website</h1>
             <p class="lead">

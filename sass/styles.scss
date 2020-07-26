@@ -1,1 +1,31 @@
- 
+$primary-color: #008a00;
+$lighter-green: #afe38c;
+
+.jumbotron {
+    background-color: darken($lighter-green, 30%);
+    margin-bottom: 0rem;
+    
+}
+
+body {
+    background-color: $lighter-green;
+}
+
+nav {
+    background-color: darken($lighter-green, 25%);
+}
+
+%nav-text {
+    color:black;
+    font-weight: bold;
+    
+}
+
+a.nav-item.nav-link.active {
+    background-color: darken($lighter-green, 35%);
+    @extend %nav-text;
+}
+
+a.nav-item.nav-link {
+    @extend %nav-text;
+}
