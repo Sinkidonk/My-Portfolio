@@ -9,7 +9,7 @@ require 'inc_header.php';
     <div class="row">
         
     <div class="col-sm">
-        <div style="width:85%;height:20rem;">
+        <div style="width:85%;height:20rem;margin-top:1rem">
         <img src="img/my-profile.jpg" alt="Alex Parys" class="img-fluid float-left">
             </div>
     </div>
