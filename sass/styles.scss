@@ -1,5 +1,7 @@
 $lighter-green: #afe38c;
 
+$gray-color: #e0e0e0;
+
 .jumbotron {
     background-color: darken($lighter-green, 30%);
     margin-bottom: 0rem;
@@ -26,4 +28,22 @@ a.nav-item.nav-link.active {
 
 a.nav-item.nav-link {
     @extend %nav-text;
+}
+
+div.altcoloring > div:nth-of-type(odd) {
+    background: $gray-color
+}
+
+div.altcoloring > div:nth-of-type(even) {
+    background: darken($gray-color, 5%);
+}
+
+.filldiv {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
 }
