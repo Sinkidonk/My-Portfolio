@@ -33,7 +33,7 @@ require 'pdo_connect.php';
     </div>
     <div class="row mw-100">
         <div class="col-6 border">
-            <a class="filldiv" href="<?php echo $row['Download_View'];?>">
+            <a class="filldiv text-center pt-2 pb-2" target="_blank" href="<?php echo $row['Download_View'];?>">
             <?php
                 /* Switch code to either say Download or View in Web
                 Based on if I see a value of 0 being I have to download to see the output
@@ -52,7 +52,8 @@ require 'pdo_connect.php';
             </a>
         </div>
         <div class="col-6 border">
-            <p><?php print $row['View_Code']?></p>
+            <a class="filldiv text-center pt-2 pb-2" target="_blank" href="<?php echo $row['View_Code']?>;">View Code</a>
+            
         </div>
     </div>
         </div>
