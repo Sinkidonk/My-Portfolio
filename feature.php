@@ -7,7 +7,7 @@ require 'pdo_connect.php';
 
 <div class="container">
     <div class="row mw-100">
-    <div class="col-12 border">
+    <div class="col-12">
                     <h1>About Feature Page</h1>
         <p>This page will feature all of the stuff I worked on that required actual efforts from me to work on.<br>
             My final project’s as well as personal projects, anything that wasn’t just straight out of a book where it was like oh do this and then do that, oh finds and correct these errors in the code. Type of deal.
@@ -25,14 +25,14 @@ require 'pdo_connect.php';
     ?>
     <div class="altcoloring">
     <div class="row mw-100">
-        <div class="col-12 border">
+        <div class="col-12">
             <h4 style="font-weight:bold;"><?php echo $row['Name'];?></h4>
                   
             <p><?php print $row['About']?></p>
         </div>
     </div>
     <div class="row mw-100">
-        <div class="col-6 border">
+        <div class="col-6">
             <a class="filldiv text-center pt-2 pb-2" target="_blank" href="<?php echo $row['Download_View'];?>">
             <?php
                 /* Switch code to either say Download or View in Web
@@ -51,7 +51,7 @@ require 'pdo_connect.php';
             ?>
             </a>
         </div>
-        <div class="col-6 border">
+        <div class="col-6">
             <a class="filldiv text-center pt-2 pb-2" target="_blank" href="<?php echo $row['View_Code']?>;">View Code</a>
             
         </div>
