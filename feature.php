@@ -2,6 +2,7 @@
 
 $pageTitle = "Feature";
 require 'inc_header.php';
+require 'pdo_connect.php';
 ?>
 
 <div class="container">
@@ -13,21 +14,56 @@ require 'inc_header.php';
         </p>
         </div>
     </div>
-    <!-- TODO: Create php code to automagically fill stuff out from a database -->
-<div class="row mw-100">
-    <div class="col-12 border">
-        Name of Project<br>
-        About Project
-    </div>
+    
+    <?php 
+    /* little function that will loop through my database and printout formatted html tags with values pulled from my database */
+    function printBlocks($conn) {
+    $query = $conn->prepare('SELECT Name,About,DorV,Download_View,View_Code FROM Feature');
+    $query->execute();
+        
+        foreach ($query as $row) {
+    ?>
+    <div class="altcoloring">
+    <div class="row mw-100">
+        <div class="col-12 border">
+            <h4 style="font-weight:bold;"><?php echo $row['Name'];?></h4>
+                  
+            <p><?php print $row['About']?></p>
+        </div>
     </div>
     <div class="row mw-100">
-    <div class="col-6 border">
-        Download/View in web
-    </div>
-    <div class="col-6 border">
-        View Code
+        <div class="col-6 border">
+            <a class="filldiv" href="<?php echo $row['Download_View'];?>">
+            <?php
+                /* Switch code to either say Download or View in Web
+                Based on if I see a value of 0 being I have to download to see the output
+                or if I see a value of 1 meaning I can just display the output in the browser. */
+                switch ($row['DorV']) {
+                    case 0:
+                        echo "Download";
+                        break;
+                    case 1:
+                        echo "View in Web";
+                        break;
+                    default:
+                        echo "Who are you and how did you do this?";
+                }
+            ?>
+            </a>
         </div>
-</div>
+        <div class="col-6 border">
+            <p><?php print $row['View_Code']?></p>
+        </div>
+    </div>
+        </div>
+        <?php 
+    }
+}
+    printBlocks($MyPDO);
+    
+    
+    ?>
+
 </div>
 
 
