@@ -52,7 +52,7 @@ require 'pdo_connect.php';
             </a>
         </div>
         <div class="col-6">
-            <a class="filldiv text-center pt-2 pb-2" target="_blank" href="<?php echo $row['View_Code']?>;">View Code</a>
+            <a class="filldiv text-center pt-2 pb-2" target="_blank" href="<?php echo $row['View_Code'];?>">View Code</a>
             
         </div>
     </div>
