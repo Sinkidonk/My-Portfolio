@@ -1,4 +1,6 @@
 <?php
+
+
 class MyPDO extends PDO
 {
     public function __construct($file = 'my_setting.ini')
@@ -13,6 +15,6 @@ class MyPDO extends PDO
         parent::__construct($dns, $settings['database']['username'], $settings['database']['password']);
     }
 }
+$MyPDO = new mypdo;
 ?>
 
-<!-- TODO: Rewrite this function to actully work! -->
