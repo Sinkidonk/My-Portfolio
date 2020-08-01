@@ -61,7 +61,7 @@ require 'inc_header.php';
 
     <div class="row mw-100">
         <div class="col-12">
-            <h4 style="font-weight:bold;"><?php echo $mydata[$row][0];?></h4>
+            <h4 class="pt-4 font-weight-bold"><?php echo $mydata[$row][0];?></h4>
                   
             <p><?php echo $mydata[$row][1];?></p>
         </div>
