@@ -7,16 +7,15 @@ body {
   background-color: #afe38c;
 }
 
-nav {
-  background-color: #6ac12f;
-}
-
-a.nav-item.nav-link, a.nav-item.nav-link.active {
+nav a .nav-item.nav-link {
   color: black;
   font-weight: bold;
 }
 
-a.nav-item.nav-link.active {
+nav {
+  background-color: #6ac12f;
+}
+nav a .nav-item.nav-link .active {
   background-color: #539825;
 }
 

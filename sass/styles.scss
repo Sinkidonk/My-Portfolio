@@ -11,9 +11,6 @@ body {
     background-color: $lighter-green;
 }
 
-nav {
-    background-color: darken($lighter-green, 25%);
-}
 
 %nav-text {
     color:black;
@@ -21,13 +18,16 @@ nav {
     
 }
 
-a.nav-item.nav-link.active {
-    background-color: darken($lighter-green, 35%);
-    @extend %nav-text;
-}
-
-a.nav-item.nav-link {
-    @extend %nav-text;
+nav {
+    background-color: darken($lighter-green, 25%);
+    a {
+        .nav-item.nav-link {
+            @extend %nav-text;
+            .active {
+                background-color: darken($lighter-green, 35%);
+            }
+        }
+    }
 }
 
 div.altcoloring > div:nth-of-type(odd) {
