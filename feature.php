@@ -36,6 +36,10 @@ require 'inc_header.php';
               "This was a script created as part of a final project. I learn a lot from creating this script while it nice to know Powershell coding within it is kind of a pain.",
               1, "https://github.com/Sinkidonk/Firewall-Powershell/archive/master.zip", "https://github.com/Sinkidonk/Firewall-Powershell" 
              ),
+        array("Minetest_coloredwater", 
+              "Fun little personal project I was working on to fill a gap in the game minetest, no longer play so code might not work anymore", 
+              1, "https://github.com/Sinkidonk/Minetest_coloredwater/archive/master.zip", "https://github.com/Sinkidonk/Minetest_coloredwater" 
+             ),
         array("Linux Website", 
               "This was created as a final project for my Web Programming 1 class. It show off my love for linux.",
               0, "http://alexparys.com/features/linux-website", "https://github.com/Sinkidonk/linux-website-web-dev-1" 
@@ -47,11 +51,8 @@ require 'inc_header.php';
         array("Web Concepts Final", 
               "I created this as part of my Web Concepts class final project. It needed to be a simple website with pictures. It also show my love of Linux again.", 
               0, "http://alexparys.com/features/web-concepts", "https://github.com/Sinkidonk/network-web-concepts" 
-             ),
-        array("Minetest_coloredwater", 
-              "Fun little personal project I was working on to fill a gap in the game minetest, no longer play so code might not work anymore", 
-              1, "https://github.com/Sinkidonk/Minetest_coloredwater/archive/master.zip", "https://github.com/Sinkidonk/Minetest_coloredwater" 
              )
+
 
     ); // end of array
     
@@ -78,7 +79,7 @@ require 'inc_header.php';
                         echo "View in Web";
                         break;
                     case 1:
-                        echo "Download";
+                        echo "Download from Github";
                         break;
                     default:
                         echo "Who are you and how did you do this?";
