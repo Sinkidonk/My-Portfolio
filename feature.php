@@ -56,14 +56,14 @@ require 'inc_header.php';
     for ($row = 0; $row < count($mydata); $row++) {
     ?> 
 
-    <div class="row mw-100">
+    <div class="row mw-100" style="margin-left: 0px;">
         <div class="col-12">
             <h4 class="pt-4 font-weight-bold"><?php echo $mydata[$row][0];?></h4>
                   
             <p><?php echo $mydata[$row][1];?></p>
         </div>
     </div>
-        <div class="row mw-100">
+        <div class="row mw-100" style="margin-left: 0px;">
         <div class="col-6">
             <a class="filldiv text-center pt-2 pb-2" target="_blank" href="<?php echo $mydata[$row][3];?>">
             <?php
