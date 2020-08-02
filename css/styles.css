@@ -34,8 +34,8 @@ div.altcoloring > div:nth-of-type(even) {
   display: inline-block;
 }
 
-div.mw-100.row {
-  margin-left: 0px;
+div.row {
+  margin-left: 1px !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
