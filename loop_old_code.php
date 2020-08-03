@@ -33,7 +33,7 @@ function tagsloop($myarray)
     
     */
     while($count <= $num) {
-        $output .= '<div class="row mw-100">';
+        $output .= '<div class="row mw-100" style="margin-left: 0px;">';
         $x = 0;
         $innerCount = 0;
         
