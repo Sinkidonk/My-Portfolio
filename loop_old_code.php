@@ -1,25 +1,31 @@
 <?php
-class loop_old_code {
+/* array("code name", 1 or 0, link) 
+1 for see on github
+0 for view in web
+
+*/
+
+function tagsloop($myarray)
+{
+    $output = '<div class="altcoloring">';
     
-    private $array_values;
     
-    public function get_array_values() {
-        return $this->array_values;
-    }
-    
-    public function set_array_values() {
-        $this->array_values = $array_values;
+    for ($count = 0; $count < count($myarray); $count++){
+        $output .= '<div class="row mw-100">';
+        // might have to use math to create loops that can do what I want
+        for ($eachcol = 0; $eachcol < count($myarray); $eachcol++){
+            $output .= '<div class="col-sm-3">';
+            $output .= '<h4>';
+            $output .= $myarray[$count][0];
+            $output .= '</h4>';
+            $output .= '</div>';
+        }
         
+        $output .= "</div>";
     }
     
     
-    public function creation() {
-        /* put all of the html code here */
-    }
     
-
-    
-
-}
-
+    return $output;
+};
 ?>
