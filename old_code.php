@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Code Archive";
 require 'inc_header.php';
-require 'loop-old-code.php';
+require 'loop_old_code.php';
 
 ?>
 
@@ -16,11 +16,28 @@ require 'loop-old-code.php';
     </p>
     
     <?php
-    $arraylist = array("Java 1","Java 2","asp.net 1","asp.net 2");
     
-    $elementsloop = new loop_old_code();
-    $elementsloop->set_array_values = $arraylist;
-    $elementsloop->creation();
+    $arraylist = array(
+        array ("Java 1", 1, "https://github.com/Sinkidonk/Java-1-Code"),
+        array ("Java 2", 1, "https://github.com/Sinkidonk/Java-2-Code"),
+        array ("Javascript", 0, "https://github.com/Sinkidonk/Javascript-Code"),
+        array ("Web Programming 1", 0, "https://github.com/Sinkidonk/Web-Programming-1-code"),
+        array ("PHP Basics", 0, "https://github.com/Sinkidonk/PHP-Basics"),
+        array ("PowerShell", 1, "https://github.com/Sinkidonk/PowerShell-Code"),
+        array ("Advance PHP", 0, "https://github.com/Sinkidonk/Advance-PHP"),
+        array ("asp.net 2", 1, "https://github.com/Sinkidonk/asp.net-2-code"),
+        array ("asp.net 1", 1, "https://github.com/Sinkidonk/asp.net-1-code"),
+        array ("Android Code", 1, "https://github.com/Sinkidonk/Android-Code"),
+        array ("Web Programming 2", 0, "https://github.com/Sinkidonk/Web-Programming-2-code"),
+        array ("high school web design 1", 0, "https://github.com/Sinkidonk/high-school-web-design-1"),
+        array ("Python", 1, "https://github.com/Sinkidonk/Python-Code")
+        
+        
+        
+    ); // end of array
+    
+    $love = tagsloop($arraylist);
+    echo $love;
     ?>
     
 </div> <!-- container -->
