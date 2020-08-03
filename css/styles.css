@@ -7,7 +7,7 @@ body {
   background-color: #afe38c;
 }
 
-nav a .nav-item.nav-link {
+nav a.nav-item.nav-link.active, nav a.nav-item.nav-link {
   color: black;
   font-weight: bold;
 }
@@ -15,7 +15,7 @@ nav a .nav-item.nav-link {
 nav {
   background-color: #6ac12f;
 }
-nav a .nav-item.nav-link .active {
+nav a.nav-item.nav-link.active {
   background-color: #539825;
 }
 
