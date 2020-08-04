@@ -17,7 +17,7 @@ function tagsloop($myarray)
     
     $colsNum = 3; // the number of cols I want
     
-    $math = ceil($num/3);
+    $math = ceil($num/$colsNum);
     
     $count = 0;
     /*
@@ -37,7 +37,7 @@ function tagsloop($myarray)
         $x = 0;
         $innerCount = 0;
         
-        while($count < $num && $innerCount <= $math && $x < 4) {
+        while($count < $num && $innerCount <= $math && $x < $colsNum) {
             $output .= '<div class="col-sm-3">';
             $output .= '<p>';
             $output .= $myarray[$count][0];
