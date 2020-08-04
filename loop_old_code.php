@@ -65,6 +65,7 @@ function tagsloop($myarray)
         $count++;
         $output .= "</div>";
     }
+    $output .= "</div>";
            
     
 
