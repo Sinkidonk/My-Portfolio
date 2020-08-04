@@ -45,11 +45,13 @@ function tagsloop($myarray)
             $output .= '">';
             switch ($myarray[$count][1]) {
                 case 0:
-                    $output .= 'View in GitHub</a>';
+                    $output .= 'Go to Page</a>';
                     break;
                 case 1:
-                    $output .= 'View in Web</a>';
+                    $output .= 'Web demo</a>';
                     break;
+                case 2:
+                    $output .= 'View on Github</a>';
                 default:
                     $output .= 'Um how did you get here</a>';
                     
