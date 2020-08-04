@@ -29,7 +29,7 @@ require 'loop_old_code.php';
         array ("asp.net 2", 0, "https://github.com/Sinkidonk/asp.net-2-code"),
         array ("Android Code", 0, "https://github.com/Sinkidonk/Android-Code"),
         array ("Web Programming 2", 0, "https://github.com/Sinkidonk/Web-Programming-2-code"),
-        array ("high school web design 1", 0, "https://github.com/Sinkidonk/high-school-web-design-1"),
+        array ("High School Web Design 1", 0, "https://github.com/Sinkidonk/high-school-web-design-1"),
         array ("Python", 0, "https://github.com/Sinkidonk/Python-Code")
         
         
