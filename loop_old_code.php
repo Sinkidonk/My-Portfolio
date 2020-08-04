@@ -38,7 +38,7 @@ function tagsloop($myarray)
         $innerCount = 0;
         
         while($count < $num && $innerCount <= $math && $x < $colsNum) {
-            $output .= '<div class="col-sm-3">';
+            $output .= '<div class="col-sm-4">';
             $output .= '<p>';
             $output .= $myarray[$count][0];
             $output .= '</p>';
