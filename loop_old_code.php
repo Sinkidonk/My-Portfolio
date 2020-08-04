@@ -15,7 +15,9 @@ function tagsloop($myarray)
     
     $num = count($myarray);
     
-    $math = ceil($num/4);
+    $colsNum = 3; // the number of cols I want
+    
+    $math = ceil($num/3);
     
     $count = 0;
     /*
