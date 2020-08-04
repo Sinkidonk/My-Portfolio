@@ -18,19 +18,19 @@ require 'loop_old_code.php';
     <?php
     
     $arraylist = array(
-        array ("Java 1", 1, "https://github.com/Sinkidonk/Java-1-Code"),
-        array ("Java 2", 1, "https://github.com/Sinkidonk/Java-2-Code"),
+        array ("Java 1", 0, "https://github.com/Sinkidonk/Java-1-Code"),
+        array ("Java 2", 0, "https://github.com/Sinkidonk/Java-2-Code"),
         array ("Javascript", 0, "https://github.com/Sinkidonk/Javascript-Code"),
         array ("Web Programming 1", 0, "https://github.com/Sinkidonk/Web-Programming-1-code"),
         array ("PHP Basics", 0, "https://github.com/Sinkidonk/PHP-Basics"),
-        array ("PowerShell", 1, "https://github.com/Sinkidonk/PowerShell-Code"),
+        array ("PowerShell", 0, "https://github.com/Sinkidonk/PowerShell-Code"),
         array ("Advance PHP", 0, "https://github.com/Sinkidonk/Advance-PHP"),
-        array ("asp.net 2", 1, "https://github.com/Sinkidonk/asp.net-2-code"),
-        array ("asp.net 1", 1, "https://github.com/Sinkidonk/asp.net-1-code"),
-        array ("Android Code", 1, "https://github.com/Sinkidonk/Android-Code"),
+        array ("asp.net 1", 0, "https://github.com/Sinkidonk/asp.net-1-code"),
+        array ("asp.net 2", 0, "https://github.com/Sinkidonk/asp.net-2-code"),
+        array ("Android Code", 0, "https://github.com/Sinkidonk/Android-Code"),
         array ("Web Programming 2", 0, "https://github.com/Sinkidonk/Web-Programming-2-code"),
         array ("high school web design 1", 0, "https://github.com/Sinkidonk/high-school-web-design-1"),
-        array ("Python", 1, "https://github.com/Sinkidonk/Python-Code")
+        array ("Python", 0, "https://github.com/Sinkidonk/Python-Code")
         
         
         
