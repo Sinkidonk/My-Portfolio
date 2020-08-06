@@ -1,6 +1,8 @@
 <?php
 // 8/6/2020 I relized I botch this script it only work well with the
 // default setting.
+// update: fixed the error with it not displaying the last few elements
+// within the array, now it print a lot of extra unused tags.
 
 function tagsloop($myarray)
 {
@@ -8,11 +10,11 @@ function tagsloop($myarray)
     
     $num = count($myarray);
     
-    $colsNum = 3; // the number of cols I want
+    $colsNum = 2; // the number of cols I want
     
     $math = ceil($num/$colsNum);
     
-    $count = 0;
+    
     /*
     For this to work I need the inner loop to create 4 cols
     I also need a way to loop throught the array to input the
@@ -25,16 +27,17 @@ function tagsloop($myarray)
     
     
     */
-    
+    $count = 0;
+	$innerCount = 0;
     $arrayCount = 0; // fixed an error from using $count as the array value
-    while($count < $num) {
+    while($count <= $num) {
         $output .= '<div class="row mw-100" style="margin-left: 0px;">';
         $x = 0;
-        $innerCount = 0;
+        $innerMathCount = 0;
 
-        while($count <= $num && $innerCount <= $math && $x <= $colsNum) {
+        while($innerCount < $num && $innerMathCount <= $math && $x <= $colsNum) {
 
-            $output .= '<div class="col-sm-3">';
+            $output .= '<div class="col-sm-4">';
             $output .= '<p>';
             $output .= $myarray[$arrayCount][0];
             $output .= '</p>';
@@ -56,7 +59,7 @@ function tagsloop($myarray)
                     
             }
             $output .= '</div>';
-            $count++;
+            
             $innerCount++;
             $x++;
             $arrayCount++;
@@ -64,11 +67,7 @@ function tagsloop($myarray)
         }
         $count++;
         $output .= "</div>";
-		echo "$count count output <br>";
-		echo "$innerCount innerCount output <br>";
-		echo "$x x output <br>";
-		echo "$arrayCount arrayCount output <br>";
-	
+
     }
     $output .= "</div>";
            
