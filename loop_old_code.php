@@ -32,6 +32,8 @@ function tagsloop($myarray)
     
     
     */
+    
+    $arrayCount = 0; // fixed an error from using $count as the array value
     while($count <= $num) {
         $output .= '<div class="row mw-100" style="margin-left: 0px;">';
         $x = 0;
@@ -40,12 +42,12 @@ function tagsloop($myarray)
         while($count < $num && $innerCount <= $math && $x < $colsNum) {
             $output .= '<div class="col-sm-4">';
             $output .= '<p>';
-            $output .= $myarray[$count][0];
+            $output .= $myarray[$arrayCount][0];
             $output .= '</p>';
             $output .= '<a class="text-center pb-t pt-2" target="_blank" href="';
-            $output .= $myarray[$count][2];
+            $output .= $myarray[$arrayCount][2];
             $output .= '">';
-            switch ($myarray[$count][1]) {
+            switch ($myarray[$arrayCount][1]) {
                 case 0:
                     $output .= 'Go to Page</a>';
                     break;
@@ -62,6 +64,7 @@ function tagsloop($myarray)
             $count++;
             $innerCount++;
             $x++;
+            $arrayCount++;
             
         }
         $count++;
