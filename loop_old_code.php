@@ -1,13 +1,6 @@
 <?php
-/* array("code name", 1 or 0, link) 
-1 for see on github
-0 for view in web
-
-*/
-
-// todo: need a way to carry variable info into the inner loop.
-
-// might have to rewrite as a do while loop
+// 8/6/2020 I relized I botch this script it only work well with the
+// default setting.
 
 function tagsloop($myarray)
 {
@@ -34,13 +27,14 @@ function tagsloop($myarray)
     */
     
     $arrayCount = 0; // fixed an error from using $count as the array value
-    while($count <= $num) {
+    while($count < $num) {
         $output .= '<div class="row mw-100" style="margin-left: 0px;">';
         $x = 0;
         $innerCount = 0;
-        
-        while($count < $num && $innerCount <= $math && $x < $colsNum) {
-            $output .= '<div class="col-sm-4">';
+
+        while($count <= $num && $innerCount <= $math && $x <= $colsNum) {
+
+            $output .= '<div class="col-sm-3">';
             $output .= '<p>';
             $output .= $myarray[$arrayCount][0];
             $output .= '</p>';
@@ -56,6 +50,7 @@ function tagsloop($myarray)
                     break;
                 case 2:
                     $output .= 'View on Github</a>';
+                    break;
                 default:
                     $output .= 'Um how did you get here</a>';
                     
@@ -69,6 +64,11 @@ function tagsloop($myarray)
         }
         $count++;
         $output .= "</div>";
+		echo "$count count output <br>";
+		echo "$innerCount innerCount output <br>";
+		echo "$x x output <br>";
+		echo "$arrayCount arrayCount output <br>";
+	
     }
     $output .= "</div>";
            
