@@ -22,11 +22,11 @@ require 'inc_header.php';
         /*array("Name of Project" [0], "About the project" [1], 0 or 1 [2], "links" [3], "View_Code" [4] ), */
         array("To Do List", 
               "This website was created as part of a final project in my Advance PHP class, it was nice going through the process of getting the PDO code to work, as well setting up the database for this project. I wouldn’t recommend people don’t go putting passwords you use for well anything else, password are encrypted but not salted. Also, this site only run off of http so no personal data. Note: Due to the the web server this is running on it always one database entry behind on update. Have no issues when running on my private testing server.",
-              0, "http://alexparys.com/features/to-do-list", "https://github.com/Sinkidonk/To-Do-List-php"
+              0, "./features/to-do-list", "https://github.com/Sinkidonk/To-Do-List-php"
              ),
         array("Alphatek", 
               "Was created for a client and as a final project for my basic php class. His wants for the website was to be a clone of one of his original websites just with updated code. In the end however my client just decided to go with one of those CMS shopping cart websites. I removed the ability of shopping on this website. As the prices and PayPal links to all the parts aren’t being updated.", 
-              0, "http://alexparys.com/features/alphatek", "https://github.com/Sinkidonk/Alphatek-php-basic" 
+              0, "./features/alphatek", "https://github.com/Sinkidonk/Alphatek-php-basic" 
              ),
         array("Firewall Powershell Script", 
               "This was a script created as part of a final project. I learn a lot from creating this script while it nice to know Powershell coding within it is kind of a pain.",
@@ -38,16 +38,19 @@ require 'inc_header.php';
              ),
         array("Linux Website", 
               "This was created as a final project for my Web Programming 1 class. It show off my love for linux.",
-              0, "http://alexparys.com/features/linux-website", "https://github.com/Sinkidonk/linux-website-web-dev-1" 
+              0, "./features/linux-website", "https://github.com/Sinkidonk/linux-website-web-dev-1" 
              ),
         array("Spring 2018 Final Project", 
               "This project was a remake of my final project made for Web Programming code 1. It was created for both my Web Programming 2, and my Javascript final project. Back then iFrames was hard to work with in responsive design.", 
-              0, "http://alexparys.com/features/sp-2018-final-project", "https://github.com/Sinkidonk/Spring-2018-Final-Project-Website" 
+              0, "./features/sp-2018-final-project", "https://github.com/Sinkidonk/Spring-2018-Final-Project-Website" 
              ),
         array("Web Concepts Final", 
               "I created this as part of my Web Concepts class final project. It needed to be a simple website with pictures. It also show my love of Linux again.", 
-              0, "http://alexparys.com/features/web-concepts", "https://github.com/Sinkidonk/network-web-concepts" 
-             )
+              0, "./features/web-concepts", "https://github.com/Sinkidonk/network-web-concepts" 
+             ),
+        array("High School Web Design",
+             "This website was created as part of a project back in highschool we created it using Dreamweaver.",
+             0, "./features/high-school-web-design", "https://github.com/Sinkidonk/high-school-web-design-1")
 
 
     ); // end of array
