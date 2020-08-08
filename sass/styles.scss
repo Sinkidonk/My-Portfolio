@@ -3,7 +3,7 @@ $lighter-green: #afe38c;
 $gray-color: #e0e0e0;
 
 .jumbotron {
-    background-color: darken($lighter-green, 30%);
+    background-color: darken($lighter-green, 8%);
     margin-bottom: 0rem;
 }
 
@@ -18,14 +18,23 @@ body {
     
 }
 
-nav {
+.btn-primary {
     background-color: darken($lighter-green, 25%);
+    border-color: darken($lighter-green, 28%);
+    @extend %nav-text;
+}
+
+
+
+
+nav {
+    background-color: darken($lighter-green, 20%);
     a.nav-item.nav-link {
         @extend %nav-text;
     }
     a.nav-item.nav-link.active {
          @extend %nav-text;
-        background-color: darken($lighter-green, 35%);
+        background-color: darken($lighter-green, 24%);
     }
 }
 
