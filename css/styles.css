@@ -17,6 +17,11 @@ nav a.nav-item.nav-link.active, nav a.nav-item.nav-link, .btn-primary {
   border-color: #63b42c;
 }
 
+.btn-primary:hover {
+  background-color: #488320;
+  border-color: #63b42c;
+}
+
 nav {
   background-color: #76cf3a;
 }

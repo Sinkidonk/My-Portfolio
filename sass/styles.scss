@@ -24,6 +24,11 @@ body {
     @extend %nav-text;
 }
 
+.btn-primary:hover {
+    background-color: darken($lighter-green, 40%);
+    border-color: darken($lighter-green, 28%);
+}
+
 
 
 
