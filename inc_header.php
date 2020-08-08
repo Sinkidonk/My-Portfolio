@@ -24,6 +24,7 @@
             Welcome to my little corner of the web.
             </p>
             <a href="https://github.com/Sinkidonk" target="_blank" class="btn btn-primary">Github</a>
+            <a href="https://www.linkedin.com/in/alex-parys-257034118/" target="_blank" class="btn btn-primary">Linkedin</a>
             </div>
         </header>
         
