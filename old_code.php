@@ -12,7 +12,6 @@ require 'loop_old_code.php';
         I am talking about all the code that was created due to a standard homework assigment.<br>
         Like debug this script, draw a circle on the screen, remove all the red from this picture.<br>
         Just stuff like that nothing special, nothing fancy.<br>
-        For web code links will be provided to view it running, however just check out my github it will all be there.
     </p>
     
     <?php
@@ -29,7 +28,6 @@ require 'loop_old_code.php';
         array ("asp.net 2", 2, "https://github.com/Sinkidonk/asp.net-2-code"),
         array ("Android Code", 2, "https://github.com/Sinkidonk/Android-Code"),
         array ("Web Programming 2", 2, "https://github.com/Sinkidonk/Web-Programming-2-code"),
-        array ("High School Web Design 1", 2, "https://github.com/Sinkidonk/high-school-web-design-1"),
         array ("Python", 2, "https://github.com/Sinkidonk/Python-Code")
         
         
