@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 	<head>
 		<!-- 
 		Author: Alex Parys
@@ -23,7 +23,7 @@
             <p class="lead">
             Welcome to my little corner of the web.
             </p>
-            
+            <a href="https://github.com/Sinkidonk" target="_blank" class="btn btn-primary">Github</a>
             </div>
         </header>
         
