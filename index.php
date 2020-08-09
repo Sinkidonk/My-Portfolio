@@ -26,7 +26,7 @@ I am Alex Parys, but you already knew that. I graduated from Gateway Technical C
 Starting in the fall I will be working on my bachelor’s degree at UWW-Whitewater as an Information Technology BBA Major, with a Networking and Security Emphasis, and a minor in Cybersecurity.<br><br>
 My career interests lie heavily in the Cybersecurity space, as you might have been able to tell.<br><br>
 In my free time, I enjoy playing Dungeons and Dragons and being lazy while watching Netflix.<br><br>
-Well, I hoped I didn’t bore you with my intro and welcome to my home.
+Well, I hoped I didn’t bored you with my intro and welcome to my home.
 
 
         </p>
