@@ -37,11 +37,11 @@ function tagsloop($myarray)
 
         while($innerCount < $num && $innerMathCount <= $math && $x <= $colsNum) {
 
-            $output .= '<div class="col-sm-4">';
+            $output .= '<div class="col-sm-4 pb-2 pt-2">';
             $output .= '<p>';
             $output .= $myarray[$arrayCount][0];
             $output .= '</p>';
-            $output .= '<a class="text-center pb-t pt-2" target="_blank" href="';
+            $output .= '<a class="text-center" target="_blank" href="';
             $output .= $myarray[$arrayCount][2];
             $output .= '">';
             switch ($myarray[$arrayCount][1]) {
