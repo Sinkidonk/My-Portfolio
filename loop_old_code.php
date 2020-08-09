@@ -31,7 +31,7 @@ function tagsloop($myarray)
 	$innerCount = 0;
     $arrayCount = 0; // fixed an error from using $count as the array value
     while($count <= $num) {
-        $output .= '<div class="row mw-100" style="margin-left: 0px;">';
+        $output .= '<div class="row mw-100">';
         $x = 0;
         $innerMathCount = 0;
 
