@@ -29,7 +29,15 @@
         </header>
         
         <nav class="nav nav-pills nav-fill">
-            <a class="nav-item nav-link <?php if($pageTitle == 'My Portfolio'){ echo " active";}?>" href="./index.php">Home</a>
-            <a class="nav-item nav-link <?php if($pageTitle == 'Feature'){ echo " active";}?>" href="./feature.php">Feature</a>
-            <a class="nav-item nav-link <?php if($pageTitle == 'Code Archive'){ echo " active";}?>" href="./old_code.php">Code Archive</a>
+            <a class="nav-item nav-link 
+                      <?php if($pageTitle == 'My Portfolio'){ echo " active";}?>" 
+                        href="./index.php">Home</a>
+            <a class="nav-item nav-link 
+                      <?php if($pageTitle == 'Feature'){ echo " active";}?>" 
+                        href="./feature.php">Feature</a>
+            <a class="nav-item nav-link 
+                      <?php if($pageTitle == 'Code Archive'){ echo " active";}?>" 
+                        href="./old_code.php">Code Archive</a>
+            <a class="nav-item nav-link<?php if($pageTitle == 'F.A.Q'){ echo " active";}?>"
+               href="./faq.php">F.A.Q</a>
         </nav>
