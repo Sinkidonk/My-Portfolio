@@ -29,18 +29,30 @@ nav a.nav-item.nav-link.active {
   background-color: #6cc530;
 }
 
-div.altcoloring > div:nth-of-type(odd) {
-  background: #e0e0e0;
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-div.altcoloring > div:nth-of-type(even) {
-  background: lightgray;
+.row:nth-child(even) {
+  background: #84d44e;
+}
+
+.row:nth-child(odd) {
+  background: #92d963;
+}
+
+div.col-sm-4 > a.text-center {
+  color: black;
+  font-weight: bold;
 }
 
 .filldiv {
   width: 100%;
   height: 100%;
   display: inline-block;
+  color: black;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
