@@ -56,8 +56,8 @@ $QaA = array(
     <?php 
     
     foreach ($QaA as $qanda) {
-        echo "<li>$qanda[0]</li>";
-        echo "<li>$qanda[1]</li>";
+        echo "<li class='question'>$qanda[0]</li>";
+        echo "<li class='answers'>$qanda[1]</li>";
         
     }
     
