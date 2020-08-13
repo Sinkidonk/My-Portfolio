@@ -2,14 +2,16 @@ $lighter-green: #afe38c;
 
 $gray-color: #e0e0e0;
 
+body {
+    background-color: $lighter-green;
+}
+
 .jumbotron {
     background-color: darken($lighter-green, 8%);
     margin-bottom: 0rem;
 }
 
-body {
-    background-color: $lighter-green;
-}
+
 
 
 %nav-text {
@@ -18,17 +20,15 @@ body {
     
 }
 
+
 .btn-primary {
     background-color: darken($lighter-green, 25%);
     border-color: darken($lighter-green, 28%);
     @extend %nav-text;
+    &:hover {
+        background-color: darken($lighter-green, 40%);
+    }
 }
-
-.btn-primary:hover {
-    background-color: darken($lighter-green, 40%);
-    border-color: darken($lighter-green, 28%);
-}
-
 
 
 
@@ -46,13 +46,18 @@ nav {
     margin-left: 0px;
     margin-right: 0px;
 }
-.row:nth-child(even) {
-    background: darken($lighter-green, 15%);
 
-}
-.row:nth-child(odd) {
+
+.col-sm-4:nth-child(1) {
     background: darken($lighter-green, 10%);
+}
 
+.col-sm-4:nth-child(2) {
+    background: darken($lighter-green, 15%);
+}
+
+.col-sm-4:nth-child(3) {
+    background: darken($lighter-green, 20%);
 }
 
 div.col-sm-4 > a.text-center {
