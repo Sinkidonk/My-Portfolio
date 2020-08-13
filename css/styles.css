@@ -73,4 +73,25 @@ ul {
   list-style: none;
 }
 
+div.col-12:nth-child(odd) {
+  background: #92d963;
+}
+div.col-12:nth-child(even) {
+  background: #84d44e;
+}
+div.altcoloring > div.row:nth-child(odd) {
+  background: #84d44e;
+}
+div.altcoloring > div.row:nth-child(even) {
+  background: #76cf3a;
+}
+
+.container {
+  background: #91e359;
+}
+
+header div.container {
+  background: none;
+}
+
 /*# sourceMappingURL=styles.css.map */
