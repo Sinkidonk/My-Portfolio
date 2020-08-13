@@ -38,11 +38,14 @@ require 'loop_old_code.php';
     echo $love;
     ?>
     
+   <?php
+    require 'inc_footer.php';
+    ?>
 </div> <!-- container -->
 
 
 
 
 <?php 
-require 'inc_footer.php';
+require 'inc_scripts.php';
  ?>

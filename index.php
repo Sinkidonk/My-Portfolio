@@ -37,11 +37,14 @@ Well, I hoped I didn’t bored you with my intro and welcome to my home.
     </div>
 
 
-</div>
+   <?php
+    require 'inc_footer.php';
+    ?>
+</div> <!-- container -->
 
 
 
 
 <?php 
-require 'inc_footer.php';
+require 'inc_scripts.php';
  ?>

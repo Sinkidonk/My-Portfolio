@@ -63,12 +63,14 @@ $QaA = array(
     
     ?>
     </ul>
-    
+    <?php
+    require 'inc_footer.php';
+    ?>
 </div> <!-- container -->
 
 
 
 
 <?php 
-require 'inc_footer.php';
+require 'inc_scripts.php';
  ?>

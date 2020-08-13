@@ -100,13 +100,14 @@ require 'inc_header.php';
 
 
 </div> <!-- .altcoloring -->
-    </div> <!-- .container -->
+   <?php
+    require 'inc_footer.php';
+    ?>
+</div> <!-- container -->
+
+
+
+
 <?php 
-    
-
-require 'inc_footer.php';
-?>
-
-      
-      
-      
+require 'inc_scripts.php';
+ ?>
