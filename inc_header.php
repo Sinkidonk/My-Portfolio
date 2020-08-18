@@ -25,6 +25,7 @@
             </p>
             <a href="https://github.com/Sinkidonk" target="_blank" class="btn btn-primary">Github</a>
             <a href="https://www.linkedin.com/in/alex-parys-257034118/" target="_blank" class="btn btn-primary">Linkedin</a>
+            <a href="Resume-Alex-Parys.pdf" target="_blank" class="btn btn-primary">Resume</a>
             </div>
         </header>
         
