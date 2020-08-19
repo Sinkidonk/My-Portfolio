@@ -27,6 +27,7 @@ body {
     @extend %nav-text;
     &:hover {
         background-color: darken($lighter-green, 40%);
+        border-color: darken($lighter-green, 28%);
     }
 }
 
@@ -129,4 +130,16 @@ header {
             background: none;
         }
     }
+}
+
+footer {
+    div {
+        max-width: 29rem;
+        font-weight: bold;
+    }
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: saturate(darken($lighter-green, 25%), 13%)
+    
+
 }
