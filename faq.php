@@ -35,7 +35,9 @@ $QaA = array(
         "What your third degree going to be in and what college are you going to get it?",
         "My Third degree is going to be from the University of Wisconsin Whitewater.<br>
         My major is an Information Technology BBA, with an Emphasis in Networking and Security, with a Minor in Cybersecurity."
-    )
+    ),
+    array ("I noticed you wrote PHP code to loop through creating elements.",
+          "Yes, see I am lazy, so I am always looking at ways to get my work done without expending too much effort, even if that mean I spend more effort on trying to find a way to automatic my tasks.")
     
     
     
